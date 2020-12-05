@@ -1,0 +1,114 @@
+header{
+    background-color: rgba(85, 83, 82, 0.973);
+    color: gray;
+}
+#header{
+    justify-content: space-between;
+    display: flex;
+    padding-bottom:  10pt;
+}
+.menu1{
+    position: absolute;
+    top: 22px;
+    left: 50%;
+    margin-left: -350px;   
+}
+/*barra de perquisa*/
+#custom-search-input {
+    margin:0;
+    margin-top: 15px;
+    padding: 0;
+}
+#custom-search-input .search-query {
+    padding-right: 3px;
+    padding-right: 4px \9;
+    padding-left: 3px;
+    padding-left: 4px \9;
+
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+#custom-search-input button {
+    border: 0;
+    background: none;
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -28px;
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+}
+#menuToggle {
+    display: none;
+  }
+.menu-icon {
+    display: none;
+}
+
+
+/*main - lancamentos*/
+main{
+    background-color: rgba(165, 160, 160, 0.89);
+    padding-bottom: 20pt;
+
+}
+#lancamentos{
+    text-align:  center;
+}
+#lanc{
+    display:inline-flex;
+    justify-content: space-between;
+}
+.sinopse{
+    padding-left: 10pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+/*Em destaques*/
+
+.destaques{
+    background-color: rgba(240, 255, 255, 0.836);
+}
+#destak{
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+}
+.dropdown{
+    padding-left: 280pt;
+}
+.butbut{
+    border: 10pt;
+    border-radius: 3pt;
+    padding: 2px 5px;
+    margin-top: 30px;
+    margin-left: 730pt;
+    left: -28px;
+    background-color: rgb(94, 91, 91);
+    color: whitesmoke;   
+ }
+.card_area > div{ 
+    margin-bottom: 10px; }
+
+.card_area img { 
+    max-width 200pt;
+    max-height: 250pt;
+}
+
+
+/*Ultimaas Avaliações*/
+
+.avaliacoes{
+    background-color: rgba(240, 255, 255, 0.836);
+}
+#aval{
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+.avaliar{
+    padding-left: 50pt;
+    padding-right: 50pt;
+}

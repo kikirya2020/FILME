@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Filmolâdia </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+
+<body background="backs/icons_preto.jpg">
+
+    <header>
+        <div class="container" id="header">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+                <img src="logos/LOGO.png" class="logo" height="50">
+            </div>
+
+            <div class="container_nav">
+                <input type="checkbox" id="menuToggle">
+                <label for="menuToggle" class="menu-icon">
+                    <i class="fa fa-bars"></i>
+                    <i class="fa fa-times-circle"></i>
+                </label>
+
+                <nav class="nav menu1">
+                    <a class="nav-link active" href="#">lançamentos | </a>
+                    <a class="nav-link" href="#">em destaque | </a>
+                    <a class="nav-link" href="#">avaliações | </a>
+                    <a class="nav-link" href="#">entrevistas & makingof | </a>
+                    <a class="nav-link" href="#">novidades</a>
+                </nav>
+            </div>
+
+            <div id="custom-search-input">
+                <div class="input-group col-md-12">
+                    <input type="text" class="  search-query form-control" placeholder="Pesquisar Filmes" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-danger" type="button">
+                            <span class=" glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="container">
+
+            <div class="row ">
+                <div class="col-12" id="lancamentos">
+                    <h1>
+                        Lançamentos
+                    </h1>
+                </div>
+            </div>
+
+            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="10000">
+                        <div class="container" id="lanc">
+                            <div class="video">
+                                <iframe width="600" height="360" src="https://www.youtube.com/embed/Fn4tlUYJajA"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="sinopse">
+                                <h2>Pantera Negra</h2>
+                                <p> <b>Sinopse: </b> Conheça a história de T'Challa, príncipe do reino de Wakanda, que
+                                    perde o seu pai e viaja para os Estados Unidos, onde tem contato com os Vingadores.
+                                    Entre as suas habilidades estão a velocidade, inteligência e os sentidos apurados.
+                                    <br /><b>Diretor: </b> Ryan Coogler
+                                    <b>Roteiro: </b> Ryan Coogler, Stan Lee, Jack Kirby, Joe Robert Cole
+                                    <b>Estreia: </b> 2018
+                                    <br /><b>Elenco: </b><br>
+                                    <a class="carrosel-link" href="#">Chadwick Boseman | </a>
+                                    <a class="carrosel-link" href="#">Michael B. Jordan | </a>
+                                    <a class="carrosel-link" href="#">Letitia Wrigh | </a>
+                                    <a class="carrosel-link" href="#">Lupita Nyong'o | </a>
+
+                                    <br /><b>Avaliação:</b> <br /> &starf;&starf;&starf;&starf;&star;
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                        <div class="container" id="lanc">
+                            <div class="video">
+                                <iframe width="600" height="360" src="https://www.youtube.com/embed/wx3PVtrU-Os"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="sinopse">
+                                <h2>Estrelas alem do tempo</h2>
+                                <p> <b>Sinopse: </b> No auge da corrida espacial travada entre Estados Unidos e Rússia
+                                    durante a Guerra Fria, uma equipe de cientistas da NASA, formada exclusivamente por
+                                    mulheres afro-americanas, provou ser o elemento crucial que faltava na equação para
+                                    a vitória dos Estados Unidos, liderando uma das maiores operações tecnológicas
+                                    registradas na história americana e se tornando verdadeiras heroínas da nação.
+                                    <br /><b>Diretor: </b> Theodore Melfi
+                                    <b>Roteiro: </b> Allison Schroeder
+                                    <b>Estreia: </b> 2017
+                                    <br /><b>Elenco: </b><br>
+                                    <a class="carrosel-link" href="#">Taraji P. Henson | </a>
+                                    <a class="carrosel-link" href="#">Octavia Spencer | </a>
+                                    <a class="carrosel-link" href="#">Janelle Monáe | </a>
+                                    <a class="carrosel-link" href="#">Mahershala Ali | </a>
+
+                                    <br /><b>Avaliação:</b> <br /> &starf;&starf;&starf;&starf;&star;
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container" id="lanc">
+                            <div class="video">
+                                <iframe width="600" height="360" src="https://www.youtube.com/embed/gSBAzgT7Z6I"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="sinopse">
+                                <h2>Até o ultimo homem</h2>
+                                <p> <b>Sinopse: </b> Durante a Segunda Guerra Mundial, o médico do
+                                    exército Desmond T. Doss (Andrew Garfield)
+                                    se recusa a pegar em uma arma e matar pessoas, porém, durante a Batalha de Okinawa
+                                    ele
+                                    trabalha na ala médica e salva mais de 75 homens,
+                                    sendo condecorado. O que faz de Doss o primeiro Opositor Consciente da história
+                                    norte-americana a receber a Medalha de Honra do Congresso.
+                                    <br /><b>Diretor: </b> Theodore Melfi
+                                    <b>Roteiro: </b> Andrew Knight, Randall Wallace, Robert Schenkkan
+                                    <b>Estreia: </b> 2016
+                                    <br /><b>Elenco: </b><br>
+                                    <a class="carrosel-link" href="#">Andrew Garfield | </a>
+                                    <a class="carrosel-link" href="#">Vince Vaughn | </a>
+                                    <a class="carrosel-link" href="#">Teresa Palmer | </a>
+                                    <a class="carrosel-link" href="#">Sam Worthington | </a>
+
+                                    <br /><b>Avaliação:</b> <br /> &starf;&starf;&starf;&starf;&starf;
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </div>
+
+    </main>
+
+    <section class="destaques">
+
+        <div class="container" id="destak">
+
+            <div class="row ">
+                <div class="col-6" id="destacar">
+                    <h1>
+                        Em destaque
+                    </h1>
+                </div>
+
+                <div class="col-6" id="drop">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Categoria: TODOS
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Ação</a>
+                            <a class="dropdown-item" href="#">Comedia</a>
+                            <a class="dropdown-item" href="#">Romance</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="row card_area">
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="#"> <img src="destaque img/filme1.jpg"> </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                   <a href="#"> <img src="destaque img/filme2.jpg"> </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="#"> <img src="destaque img/filme3.jpg"> </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="#"> <img src="destaque img/filme4.jpg"> </a>
+                </div>
+            </div>
+
+            <div class="row button carregar-mais">
+
+                <div class="row" id="CarregarMais">
+
+                   <a href="#"> <button type="button" class="butbut">+ carregar mais filmes</button></a>
+        
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="avaliacoes">
+
+        <div class="container" id="avaliar">
+
+            
+                <div class="col-12" id="ultaval">
+                    <h1>
+                        Ultimas Avaliações 
+                    </h1>
+                </div>
+
+            <div class="row aval_area">
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3" id="aval">
+                    <div class="colum" id="foto">
+                        <img src="icons/avatar.png" height="70">
+                    </div>
+                    <div class="colum" id="avaliar">
+    
+                        <h4>Nome do Avaliador</h4>
+                        
+                        <p class="aval"><b>Avaliação: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus
+                                consequatur
+                                necessitatibus itaque deleniti tempora inventore molestiae nihil reprehenderit alias. Hic
+                                architecto ducimus quod recusandae laudantium earum. Veniam, velit eaque!</p>
+                        
+                             &starf;&starf;&starf;&starf;&star; <small><b>30/09/2020</b></small>
+    
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3" id="aval">
+                    <div class="colum" id="foto">
+                        <img src="icons/avatar.png" height="70">
+                    </div>
+                    <div class="colum" id="avaliar">
+    
+                        <h4>Nome do Avaliador</h4>
+                        
+                        <p class="aval"><b>Avaliação: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus
+                                consequatur
+                                necessitatibus itaque deleniti tempora inventore molestiae nihil reprehenderit alias. Hic
+                                architecto ducimus quod recusandae laudantium earum. Veniam, velit eaque!</p>
+                        
+                             &starf;&starf;&starf;&starf;&star; <small><b>30/09/2020</b></small>
+    
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3" id="aval">
+                    <div class="colum" id="foto">
+                        <img src="icons/avatar.png" height="70">
+                    </div>
+                    <div class="colum" id="avaliar">
+    
+                        <h4>Nome do Avaliador</h4>
+                        
+                        <p class="aval"><b>Avaliação: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ducimus
+                                consequatur
+                                necessitatibus itaque deleniti tempora inventore molestiae nihil reprehenderit alias. Hic
+                                architecto ducimus quod recusandae laudantium earum. Veniam, velit eaque!</p>
+                        
+                             &starf;&starf;&starf;&starf;&star; <small><b>30/09/2020</b></small>
+    
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div class="row button carregar-mais">
+
+                <div class="row" id="CarregarMais">
+
+                   <a href="#"> <button type="button" class="butbut">+ carregar mais avaliações</button></a>
+        
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+</body>
+
+</html>
